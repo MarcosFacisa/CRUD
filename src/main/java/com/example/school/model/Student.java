@@ -23,7 +23,6 @@ public class Student {
         joinColumns = @JoinColumn(name = "student_id"),
         inverseJoinColumns = @JoinColumn(name = "course_id")
     )
-    @com.fasterxml.jackson.annotation.JsonManagedReference
     private Set<Course> courses = new HashSet<>();
 
         public Long getId() {

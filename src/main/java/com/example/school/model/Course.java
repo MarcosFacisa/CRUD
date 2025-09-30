@@ -3,6 +3,7 @@ package com.example.school.model;
 import jakarta.persistence.*;
 import java.util.HashSet;
 import java.util.Set;
+import com.fasterxml.jackson.annotation.JsonInclude;
 
 @Entity
 public class Course {
@@ -14,6 +15,7 @@ public class Course {
 
     @ManyToOne
     @JoinColumn(name = "department_id")
+    @com.fasterxml.jackson.annotation.JsonIgnore
     private Department department;
 
     @ManyToMany(mappedBy = "courses")
