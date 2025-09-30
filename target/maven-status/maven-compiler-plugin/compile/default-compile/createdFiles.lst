@@ -1,0 +1,12 @@
+com\example\school\model\Address.class
+com\example\school\StudentController.class
+com\example\school\repository\CourseRepository.class
+com\example\school\SchoolManagementApplication.class
+com\example\school\HomeController.class
+com\example\school\model\Course.class
+com\example\school\dto\StudentDTO.class
+com\example\school\model\Department.class
+com\example\school\CourseController.class
+com\example\school\repository\StudentRepository.class
+com\example\school\model\Student.class
+com\example\school\dto\StudentDTO$AddressDTO.class

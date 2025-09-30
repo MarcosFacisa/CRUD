@@ -1,0 +1,82 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Rodar aplicação Spring Boot",
+			"type": "shell",
+			"command": "mvn spring-boot:run",
+			"args": [],
+			"isBackground": false,
+			"problemMatcher": [
+				"$java"
+			],
+			"group": "build"
+		},
+		{
+			"label": "Rodar aplicação Spring Boot",
+			"type": "shell",
+			"command": "mvn spring-boot:run",
+			"args": [],
+			"isBackground": false,
+			"problemMatcher": [
+				"$java"
+			],
+			"group": "build"
+		},
+		{
+			"label": "Rodar aplicação Spring Boot",
+			"type": "shell",
+			"command": "mvn spring-boot:run",
+			"args": [],
+			"isBackground": false,
+			"problemMatcher": [
+				"$java"
+			],
+			"group": "build"
+		},
+		{
+			"label": "Buildar aplicação Spring Boot",
+			"type": "shell",
+			"command": "mvn clean package",
+			"args": [],
+			"isBackground": false,
+			"problemMatcher": [
+				"$java"
+			],
+			"group": "build"
+		},
+		{
+			"label": "Rodar aplicação Spring Boot",
+			"type": "shell",
+			"command": "mvn spring-boot:run",
+			"args": [],
+			"isBackground": false,
+			"problemMatcher": [
+				"$java"
+			],
+			"group": "build"
+		},
+		{
+			"label": "Buildar aplicação Spring Boot",
+			"type": "shell",
+			"command": "mvn clean package",
+			"args": [],
+			"isBackground": false,
+			"problemMatcher": [
+				"$java"
+			],
+			"group": "build"
+		},
+		{
+			"label": "Buildar aplicação Spring Boot após adicionar getters/setters",
+			"type": "shell",
+			"command": "mvn clean package",
+			"args": [],
+			"isBackground": false,
+			"problemMatcher": [
+				"$java"
+			],
+			"group": "build"
+		}
+	]
+}
